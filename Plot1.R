@@ -1,4 +1,4 @@
-# Load Data
+# Load Data #
 ds <- read.csv("household_power_consumption.txt", header=T, na.string="?", sep=";")
 ds$Date <- as.Date(ds$Date, format="%d/%m/%Y")
 
