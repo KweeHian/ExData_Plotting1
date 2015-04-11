@@ -12,4 +12,3 @@ plot(subdata$Global_active_power~subdata$Datetime, type="l",ylab="Global Active 
 dev.copy(png, file="plot2.png", height=480, width=480)
 dev.off()
 
-Enter file contents here
